@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e5a3776d-2a9a-4b5b-8e98-7a09a58db0f4" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.dimploom/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.dimploom/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Game/potion_model_ready.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Game/potion_model_ready.prefab" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -105,7 +105,7 @@
       <option name="presentableId" value="Default" />
       <updated>1749901679898</updated>
       <workItem from="1749901681706" duration="6226000" />
-      <workItem from="1749916838361" duration="9006000" />
+      <workItem from="1749916838361" duration="9621000" />
     </task>
     <servers />
   </component>
