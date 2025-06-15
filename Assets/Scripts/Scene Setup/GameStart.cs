@@ -14,7 +14,6 @@ namespace Scene_Setup
         [SerializeField] private Image bg;
 
         [SerializeField] private GameObject leaderboard;
-        [SerializeField] private Button _skipButton;
         private bool _firstLaunch = true;
         
         private void Start()
@@ -23,11 +22,6 @@ namespace Scene_Setup
                 StartFirstDialogue();
             else
                 GameOver();
-            
-            _skipButton.onClick.AddListener((() =>
-            {
-                DialogueController.instance.ClearDialogueInstance();
-            }));
         }
 
         private void StartFirstDialogue()
