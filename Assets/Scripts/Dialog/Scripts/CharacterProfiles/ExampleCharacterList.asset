@@ -1,0 +1,38 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b67952551a1e5fa4ca331d5e9f97b165, type: 3}
+  m_Name: ExampleCharacterList
+  m_EditorClassIdentifier: 
+  characterProfiles:
+  - characterName: "\u0414\u0435\u0434"
+    characterID: 1
+    characterDescription: 
+    characterColor: {r: 0, g: 0, b: 0, a: 0}
+    characterSprite: {fileID: 21300000, guid: 2862b13f7888c74459d32a6c61319758, type: 3}
+    speechSFXBlips:
+    - {fileID: 8300000, guid: 28f3156bb805c8640ac4ee00f7201d02, type: 3}
+    - {fileID: 8300000, guid: 75be628f76ec72b4c936db9d2951c4f6, type: 3}
+    - {fileID: 8300000, guid: 57767d64dcff2d64eb391e63dacf112d, type: 3}
+    - {fileID: 8300000, guid: 05e428d3a0edebf4f925c7adf7418156, type: 3}
+    - {fileID: 8300000, guid: 7e89b37272835c54fb7e3800235364d6, type: 3}
+  - characterName: "\u0431\u0440\u0430\u0442 1"
+    characterID: 2
+    characterDescription: 
+    characterColor: {r: 1, g: 0, b: 0, a: 0}
+    characterSprite: {fileID: 0}
+    speechSFXBlips: []
+  - characterName: "\u0431\u0440\u0430\u0442 2"
+    characterID: 3
+    characterDescription: 
+    characterColor: {r: 0, g: 0.13757372, b: 1, a: 0}
+    characterSprite: {fileID: 0}
+    speechSFXBlips: []
