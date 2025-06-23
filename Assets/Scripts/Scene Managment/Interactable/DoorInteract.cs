@@ -7,6 +7,8 @@ public class DoorInteract : MonoBehaviour, IInteractable
     public AudioSource audios;
     public GameObject? passwordTrigger;
 
+    private bool _keyUsed = false;
+    
     private void Awake()
     {
         audios = GetComponent<AudioSource>();

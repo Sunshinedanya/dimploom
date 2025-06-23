@@ -52,6 +52,7 @@ public class FirstPersonMovement : MonoBehaviour
         if (other.CompareTag("PasswordTrigger"))
         {
             passGame.SetActive(true);
+            Debug.Log("jopa");
         }
         if (other.CompareTag("SelectionTrigger"))
         {
