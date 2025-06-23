@@ -16,7 +16,7 @@ public class GameOverTimerManager : MonoBehaviour
         if (currentTime <= 0)
         {
             currentTime = 0;
-            //gameover + liaderBoard
+            LoseScreenShower.instance.Lose();
         }
     }
 

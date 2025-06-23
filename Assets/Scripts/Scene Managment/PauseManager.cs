@@ -32,11 +32,13 @@ public class PauseManager : MonoBehaviour
             if (!pauseMenu.activeInHierarchy)
             {
                 Time.timeScale = 0;
+                Cursor.lockState = CursorLockMode.None;
                 pauseMenu.SetActive(true);
             }
             else
             {
                 Time.timeScale = 1;
+                Cursor.lockState = CursorLockMode.Locked;
                 pauseMenu.SetActive(false);
             }
         }
